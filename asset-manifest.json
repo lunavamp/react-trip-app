@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-trip-app/static/css/main.a7ed0768.css",
+    "main.js": "/react-trip-app/static/js/main.e0424d91.js",
+    "index.html": "/react-trip-app/index.html",
+    "main.a7ed0768.css.map": "/react-trip-app/static/css/main.a7ed0768.css.map",
+    "main.e0424d91.js.map": "/react-trip-app/static/js/main.e0424d91.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a7ed0768.css",
+    "static/js/main.e0424d91.js"
+  ]
+}
