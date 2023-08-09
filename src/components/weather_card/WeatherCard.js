@@ -7,7 +7,7 @@ const WeatherCard = ({ selectedTrip }) => {
 
   useEffect(() => {
     if (!selectedTrip) return;
-    const API_KEY = "BG4XKLVSMAVY6BPX2XCUG7H7G";
+    const API_KEY = "";
     const apiUrl = `https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/${selectedTrip.city}/today?unitGroup=metric&include=days&key=${API_KEY}&contentType=json`;
 
     fetch(apiUrl)
