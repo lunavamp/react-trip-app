@@ -1,0 +1,101 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.645);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+}
+
+.modal-content {
+  background-color: white;
+  border-radius: 0.3rem;
+  box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.2);
+  width: 65rem;
+}
+
+.modal-content form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 100%;
+  margin: 0 auto;
+  padding: 5rem 0;
+}
+
+.modal-content div:nth-child(1) {
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal-content div {
+  border-bottom: 0.1rem solid #ccc;
+  padding: 2.5rem;
+}
+
+.modal-content input,
+.modal-content select {
+  background-color: white;
+  border: 0.1rem solid #5e5e5e;
+  border-radius: 0.2rem;
+  padding: 1rem;
+  font-size: 1.6rem;
+  opacity: 0.5;
+}
+
+.modal-content select {
+  width: 100%;
+}
+
+.modal-content input {
+  width: 96.5%;
+}
+
+.modal-content label::before {
+  content: "* ";
+  color: red;
+}
+
+.modal-btns-container {
+  border: none !important;
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.close-btn,
+.cancel-btn,
+.save-btn {
+  font-size: 1.6rem;
+  padding: 1rem 1.5rem;
+  border-radius: 0.2rem;
+  outline: none;
+  cursor: pointer;
+}
+.cancel-btn {
+  background-color: transparent;
+  border: 0.2rem solid #ccc;
+}
+.save-btn {
+  background-color: rgb(38, 116, 250);
+  border: 0.2rem solid rgb(38, 116, 250);
+  color: white;
+}
+
+.close-btn {
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  color: #5e5e5e98;
+  font-weight: 500;
+  font-size: large;
+}
+
+.modal-content h2 {
+  font-size: 2rem;
+}

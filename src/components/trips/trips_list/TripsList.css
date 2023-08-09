@@ -1,0 +1,8 @@
+.trips-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  padding: 2rem 0;
+}

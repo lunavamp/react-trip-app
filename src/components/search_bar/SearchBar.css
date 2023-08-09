@@ -1,0 +1,20 @@
+.search-bar {
+  background-color: transparent;
+  border: none;
+  width: 100%;
+  margin-left: 1rem;
+}
+
+.search-bar-container {
+  display: flex;
+  max-width: 23rem;
+  background-color: #ecedf3;
+  border-radius: 1rem;
+  margin: 3rem 0;
+  padding: 1.5rem;
+}
+
+.search-bar::placeholder {
+  color: black;
+  opacity: 1;
+}

@@ -1,0 +1,25 @@
+.trip-item {
+  max-width: 20rem;
+  cursor: pointer;
+  border: 0.1rem solid #ecedf3;
+}
+
+.trip-item img {
+  max-width: 20rem;
+}
+
+.trip-item div {
+  padding: 1.5rem;
+  text-align: left;
+}
+
+.trip-item h3 {
+  font-weight: 500;
+  font-size: 1.6rem;
+  margin-bottom: 0.7rem;
+}
+
+.trip-item p {
+  font-size: 1.4rem;
+  color: #ccc;
+}

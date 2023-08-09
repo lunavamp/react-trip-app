@@ -1,0 +1,41 @@
+:root {
+  font-size: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  outline: none;
+}
+
+.App {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.trips-container {
+  padding: 3.6rem;
+  width: 65%;
+  background-color: white;
+  z-index: 2;
+}
+
+.weather-container {
+  width: 35%;
+  background: rgb(16, 12, 60);
+  color: white;
+  position: relative;
+}
+
+.sort-by-date {
+  text-decoration: underline;
+  color: #6a6a6a;
+  cursor: pointer;
+}

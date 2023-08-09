@@ -1,0 +1,11 @@
+.add-trip-btn {
+  background-color: #ecedf3;
+  height: 30%;
+  align-items: center;
+  padding: 7rem;
+  cursor: pointer;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}

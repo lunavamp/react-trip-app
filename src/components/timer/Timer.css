@@ -1,0 +1,20 @@
+.timer-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  gap: 4rem;
+  width: 20rem;
+}
+
+.timer-text {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 1.4rem;
+}
+
+.timer-numbers {
+  font-weight: 900;
+  font-size: 3rem;
+  margin-bottom: 0.8rem;
+}
